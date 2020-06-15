@@ -1,15 +1,12 @@
 // Define the numbers and the operation here
-let FirstNumber = 2;
-let SecondNumber = 1;
-let addition = "+";
-let subtraction = "-";
-let multiplication = "*";
-let division = "/";
+let firstNumber = 2;
+let secondNumber = 1;
+let operation = firstNumber - secondNumber;
 // Write if-statements here
-if (FirstNumber - SecondNumber > FirstNumber) {
-  console.log("Math Sucks!");
-} else if (FirstNumber - SecondNumber > SecondNumber) {
+if (operation > firstNumber) {
+  console.log("Math Works!");
+} else if (operation > secondNumber) {
   console.log("This Makes No Sense!");
-} else if (FirstNumber - SecondNumber === SecondNumber) {
+} else if (operation === secondNumber) {
   console.log("I'm a Math Wizard");
 } else console.log("What's wrong?");
